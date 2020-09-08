@@ -71,7 +71,7 @@ void insert(string s){
 
 int main(){
 	
-	string s[] = {"9876543210","9876543211","9876543213"};
+	string s[] = {"9876543210","9876543210","9876543213"};
 	
 	for(int i=0;i<3;i++){
 		insert(s[i]);
@@ -79,7 +79,7 @@ int main(){
 	
 	cout<<"checking 9876543213  found : "<<search("9876543213")<<endl;	
 	cout<<"checking 4327823487  found : "<<search("4327823487")<<endl;	
-	cout<<"checking 9876543210  found : "<<search("9876543210")<<endl;	
+	cout<<"checking 9876543210  found : "<<search("2346543210")<<endl;	
 		
 	// save 
 	//rocket,batman, mouse, touchmad, hasmap 	
